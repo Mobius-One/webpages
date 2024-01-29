@@ -8,8 +8,10 @@
 
 <body>
     <h1>SRHelper is a click emulator for the game Stream Raiders.</h1>
-    <h2>Download for Google Chrome at the extension store <a href="https://chromewebstore.google.com/detail/srhelper/flgahoglenmjoegheodkhahipokcilal">here</a></h2>
-    <h2>Disclaimer: It takes a few days for Google to approve a new version so sideloading the extension from github will always guarantee the latest version.</h2>
+    <h2>Download for Google Chrome at the extension store <a
+            href="https://chromewebstore.google.com/detail/srhelper/flgahoglenmjoegheodkhahipokcilal">here</a></h2>
+    <h2>Disclaimer: It takes a few days for Google to approve a new version so sideloading the extension from github
+        will always guarantee the latest version.</h2>
     <label></label><br>
     <div class="container">
         To get started, load the game after installing the extension and click on the extension icon on the extensions
@@ -21,11 +23,14 @@
     <table border="1">
         <tr>
             <td>Reloader</td>
-            <td>Due to memory and caching, the game eventually becomes unstable and unresponsive until the tab unrecoverably crashes. To mitigate this effect, set a period in minutes for the website's page to automatically refresh so the game is cleared from memory. Default is 60 minutes.</td>
+            <td>Due to memory and caching, the game eventually becomes unstable and unresponsive until the tab
+                unrecoverably crashes. To mitigate this effect, set a period in minutes for the website's page to
+                automatically refresh so the game is cleared from memory. Default is 60 minutes.</td>
         </tr>
         <tr>
-            <td>UPDATE MAP!!</td>
-            <td>If are you playing with loyalty preservation ON you will see the warning "UPDATE MAP!!" on the top header of the game whenever there's a game update. Go to the extension icon and click Update Maps, follow the instructions there to update the maps. If you are not preserving loyalty this warning can be ignored, after updating the map the warning goes away after the first loyalty battle.</td>
+            <td>Minimum event currency to buy event chests</td>
+            <td>Set the minimum event currency amount to buy event chests. Keep in mind that is buys 5 at a time
+                regardless of whether the currency has gone below the minimum target.</td>
         </tr>
         <tr>
             <td>Switch idle captain: It will always switch to a
@@ -34,10 +39,11 @@
                 start a battle or doesn't collect the reward.</td>
         </tr>
         <tr>
-            <td>Leave slot empty if there aren't any loyalty captains to switch</td>
+            <td>Leave blank if no loyalty</td>
             <td>After removing an idle captain, by default the extension will seek a captain with loyalty: diamond,
                 gold, silver, then bronze. If it doesn't find any it will seek a favorited captain. If doesn't find any
-                it will randomly select one, if this option is enabled it won't select a random captain if a loyalty/favorite
+                it will randomly select one, if this option is enabled it won't select a random captain if a
+                loyalty/favorite
                 captain isn't available.</td>
         </tr>
         <tr>
@@ -57,15 +63,27 @@
             <td>Collect free daily event rewards such as cupcakes.</td>
         </tr>
         <tr>
-            <td>Equip captain skins</td>
-            <td>Automatically equip captain skins</td>
+            <td>Buy event chests</td>
+            <td>Buy event chests when available. Set the minimum target currency of your preference, default is at least 1500 to buy chests.</td>
         </tr>
         <tr>
             <td>Collect battlepass</td>
             <td>Collect completed battlepasses (it will not collect potions if the amount of potions is maxed out).</td>
         </tr>
         <tr>
+            <td>Equip captain skins</td>
+            <td>Automatically equip captain skins</td>
+        </tr>
+        <tr>
             <td colspan="2" style="font-size: 18px; text-align: center;"><b>Placeable units</b></td>
+        </tr>
+        <tr>
+            <td>Complete campaign related quests</td>
+            <td>Units will be placed with a focus to complete quests related to placing specific units, killing specific units or getting specific assists. It will not buy scrolls, level up units or change to PVP to complete PVP quests. It will bypass the unit priority lists and will enable all unit classes to be placed.</td>
+        </tr>
+        <tr>
+            <td>Enable unit priority list</td>
+            <td>Set what you units you want to use, what units you don't want to use and their priority on the Units page. Make sure to toggle all rarity classes accordingly otherwise the unit will not be used.</td>
         </tr>
         <tr>
             <td>Use common units</td>
@@ -126,6 +144,10 @@
             <td>Switch or place with a captain if they are at least diamond.</td>
         </tr>
         <tr>
+            <td>Bypass and allow <i> loyalty chest name</i></td>
+            <td>When loyalty preservation is turned on, toggling specific chests will allow placement on them while skipping the others.</td>
+        </tr>
+        <tr>
             <td colspan="2" style="font-size: 18px; text-align: center;"><b>Live captains and Masterlist</b></td>
         </tr>
         <tr>
@@ -178,12 +200,15 @@
             <td>If there's exactly 100 potions, epic units will be used.</td>
         </tr>
         <tr>
-            <td colspan="2" style="font-size: 18px; text-align: center;"><b>Color code: From time to time you'll see the slots changing colors, here's what they
-                    mean. Units won't be placed on colored slots, new placement attempts are made every 3 minutes</b></td>
+            <td colspan="2" style="font-size: 18px; text-align: center;"><b>Color code: From time to time you'll see the
+                    slots changing colors, here's what they
+                    mean. Units won't be placed on colored slots, new placement attempts are made every 3 minutes</b>
+            </td>
         </tr>
         <tr>
             <td>Red</td>
-            <td>It means that a slot is running a special mode (dungeons/PVP) while a second captain switched to the same mode, the second
+            <td>It means that a slot is running a special mode (dungeons/PVP) while a second captain switched to the
+                same mode, the second
                 captain will be colored red and no units will be placed to avoid resetting keys for example. It also
                 means that a captain was running a special mode and switched to campaign, some users dislike this
                 because it locks the slot for 30 minutes, no units will be placed to preserve the slot.</td>
@@ -209,12 +234,16 @@
         </tr>
         <tr>
             <td>LEAVE BEFORE button state</td>
-            <td>Leave captain before collecting the reward. Explanation: The loyalty is given to a player when they place an unit, you don't have to collect the reward to receive it, so suppose you are on a loyalty chest with low loyalty, by placing and leaving you collect the loyalty and doesn't waste the chest until you're maxed on loyalty.
+            <td>Leave captain before collecting the reward. Explanation: The loyalty is given to a player when they
+                place an unit, you don't have to collect the reward to receive it, so suppose you are on a loyalty chest
+                with low loyalty, by placing and leaving you collect the loyalty and doesn't waste the chest until
+                you're maxed on loyalty.
             </td>
         </tr>
         <tr>
             <td>LEAVE AFTER button state</td>
-            <td>Leave captain after collecting the reward. Not much explanation, good to farm chests without locking the slot to a captain.
+            <td>Leave captain after collecting the reward. Not much explanation, good to farm chests without locking the
+                slot to a captain.
             </td>
         </tr>
     </table>
