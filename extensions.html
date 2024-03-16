@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Commands</th>
+                <th>Effect</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>!stats current</td>
+                <td>Show battle stats for current event</td>
+            </tr>
+            <tr>
+                <td>!stats captain_name</td>
+                <td>Show battle stats for a specific captain</td>
+            </tr>
+            <tr>
+                <td>!streak</td>
+                <td>See current winning streak</td>
+            </tr>
+            <tr>
+                <td>!box</td>
+                <td>Funny response for battles where the box strategy is possible</td>
+            </tr>
+            <tr>
+                <td>!code/DoritosChip</td>
+                <td>Battle code if there's any</td>
+            </tr>
+            <tr>
+                <td>!predict captain_name</td>
+                <td>Get a prediction for the current battle</td>
+            </tr>
+            <tr>
+                <td>!battle/BOP</td>
+                <td>Sound alert to start the battle</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
